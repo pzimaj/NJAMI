@@ -1,0 +1,126 @@
+{
+    "menu": [
+        {
+            "id" : "ravioli",
+            "name": "Njami Ravioli!",
+            "image": "images/resized/ravioli.png",
+            "image-detailed": "../images/ravioli.png",
+            "description": "Traditional italian dish made with homemade ravioli pasta and ricotta cheese.",
+            "description-more": "The ravioli is tender and has a rich taste of cheese and our special cream cheese sauce. Ready to make anyone happy when they eat it!",
+            "price": "9.99$",
+            "price-class": "bigger-price",
+            "ingredients": [
+                {"ingredient": "Ravioli pasta"},
+                {"ingredient": "Ricotta cheese"},
+                {"ingredient": "Parmesan cheese"},
+                {"ingredient": "Cream cheese sauce"},
+                {"ingredient": "Tomatoes"}
+            ],
+            "veggie": "🌱 Vegetarian",
+            "halal-image": "../images/halal.png",
+            "halal-text": "Halal"
+        },
+        {
+            "id" : "salmon",
+            "name": "Just Salmon",
+            "image": "images/resized/salmon.png",
+            "image-detailed": "../images/details/salmon.png",
+            "description": "Dish containing high-caulity salmon, fresh herbs, and homemade curcuma sauce.",
+            "description-more": "A refreshing take on the classic salmon recipe. The combination of the salmon and curcuma makes for an interestingly new combination that will have you begging for more!",
+            "price": "15.99$",
+            "price-class": "price",
+            "ingredients": [
+                {"ingredient": "Salmon"},
+                {"ingredient": "Roquette"},
+                {"ingredient": "Asparagus"},
+                {"ingredient": "Homemeade curcuma sauce"}
+            ],
+            "veggie": "Not vegetarian",
+            "halal-image": "../images/halal.png",
+            "halal-text": "Halal"
+        },
+        {
+            "id" : "chicken_and_vegetables",
+            "name": "Njami Chicken!",
+            "image": "images/resized/chicken_and_vegetables.png",
+            "image-detailed": "../images/details/chicken_and_vegetables.png",
+            "description": "Air-fried chicken with fresh vegetables and herbs taken from the garden.",
+            "description-more": "A light, guilt free dish that is filling and delicious at the same time. What can go wrong?",
+            "price": "12.99$",
+            "price-class": "bigger-price",
+            "ingredients": [
+                {"ingredient": "Fried chicken breast"},
+                {"ingredient": "Asparagus"},
+                {"ingredient": "Chilli sauce"},
+                {"ingredient": "Homemeade spices"},
+                {"ingredient": "Roquette"}
+            ],
+            "veggie": "Not vegetarian",
+            "halal-image": "../images/halal.png",
+            "halal-text": "Halal"
+        },
+        {
+            "id" : "mango_soup",
+            "name": "Mango Soup",
+            "image": "images/resized/mango_soup.png",
+            "image-detailed": "../images/details/mango_soup.png",
+            "description": "A savory-sweet soup made with fresh mangos to brighten up your day.",
+            "description-more": "Originally an Asian dish, this soup will keep you craving more. According to Chinese tradition, mango will keep you craving more!",
+            "price": "6.99$",
+            "price-class": "price",
+            "ingredients": [
+                {"ingredient": "Mango"},
+                {"ingredient": "Homemade curcuma sauce"},
+                {"ingredient": "Coconut"},
+                {"ingredient": "Alternate yoghurt"},
+                {"ingredient": "Different seeds"},
+                {"ingredient": "Chilli powder"}
+            ],
+            "veggie": "🌱 Vegan",
+            "halal-image": "../images/halal.png",
+            "halal-text": "Halal"
+        },
+        {
+            "id" : "acai_bowl",
+            "name": "Njami Acai!",
+            "image": "images/resized/acai_bowl.png",
+            "image-detailed": "../images/details/acai_bowl.png",
+            "description": "A fresh take on the classic acai bowl with fresh fruits and nuts.",
+            "description-more": "Brunch meal that is loved by all. The alternate youghurt makes it a perfect vegan meal.",
+            "price": "6.99$",
+            "price-class": "price",
+            "ingredients": [
+                {"ingredient": "Acai puree"},
+                {"ingredient": "Frozen berries"},
+                {"ingredient": "Banana"},
+                {"ingredient": "Alternate yoghurt"},
+                {"ingredient": "Granola"},
+                {"ingredient": "Different seeds"},
+                {"ingredient": "Wallnuts"}
+            ],
+            "veggie": "🌱 Vegan",
+            "halal-image": "../images/halal.png",
+            "halal-text": "Halal"
+        },
+        {
+            "id" : "pizza",
+            "name": "Njami Pizza!",
+            "image": "images/resized/pizza.png",
+            "image-detailed": "../images/details/pizza.png",
+            "description": "Homemade pizza made with fresh ingredients and homemade mozarella cheese.",
+            "description-more": "The original pizza taste. The light crust alone makes it a number one choice for a lot of our visitors.",
+            "price": "8.99$",
+            "price-class": "price",
+            "ingredients": [
+                {"ingredient": "Pizza doe"},
+                {"ingredient": "Homemade tomato sauce"},
+                {"ingredient": "Mozarella cheese"},
+                {"ingredient": "Roquette"},
+                {"ingredient": "Parmesan cheese"}
+            ],
+            "veggie": "🌱 Vegetarian",
+            "halal-image": "../images/halal.png",
+            "halal-text": "Halal"
+        }
+    ]
+}

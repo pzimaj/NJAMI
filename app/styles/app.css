@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.text-size {
+    font-size: 120%;
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#hero {
+    background-image:url(../images/hero3.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#about {
+    background-image:url(../images/about.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.is-transparent {
+    background-color: transparent;
+    background-image: none;
+}
+
+#menu {
+    padding-top: 7%;
+}
+
+#logo {
+    background: url(../images/Njami.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 170px;
+}
+
+#title {
+    font-family: 'Baloo 2', cursive;
+    font-size: 570%;
+    padding-top: 15%;
+    padding-left: 5%;
+}
+
+.small-title {
+    font-family: 'Baloo 2', cursive;
+    font-size: 400%;
+    padding-left: 5%;
+}
+
+.detailed-title {
+    font-family: 'Baloo 2', cursive;
+    font-size: 400%;
+}
+
+.pink-color {
+    color: #FFE3E3;
+    text-shadow: 4px 3px 0px #594A4780;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 27% 30%;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10em;
+    padding-top: 3%;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: 22% 22% 22%;
+    column-gap: 5em;
+    row-gap: 3em;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+
+    background-image:url(../images/menu.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150vh;
+}
+
+.menu-item{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.frame {
+    box-shadow:
+    -50px -50px 0 -40px #CDDAB5,
+    50px 50px 0 -40px #CDDAB5;
+}
+
+.link-text-color {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.rounded {
+    border-radius: 15%;
+}
+
+.menu-text {
+    padding: 2% 4% 0% 4%;
+}
+
+#menu-title {
+    font-family: 'Baloo 2', cursive;
+    font-size: 110%;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.price {
+    padding-left: 59%;
+}
+
+.bigger-price {
+    padding-left: 53%;
+}
+
+.scale { 
+    transition: all .3s ease-in-out; 
+    box-shadow:
+    -50px -50px 0 -40px #CDDAB5,
+    50px 50px 0 -40px #CDDAB5;
+}
+
+.scale:hover { 
+    transform: scale(1.05); 
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+#detailed {
+    background-image:url(../images/detailed.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.detailed-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.detailed-text {
+    width: 30%;
+}
+
+.small-margin {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.ingredients {
+    list-style: circle outside;
+    margin-left: 10%;
+}
+
+.justify {
+    text-align: justify;
+}
+
+#footer {
+    margin-top: 7%;
+    background-color: #CDDAB5;
+    padding: 2%;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.subtext {
+    padding-left: 5.5%;
+    font-size: 160%;
+}
+
+.item-color {
+    font-family: 'Baloo 2', cursive;
+    font-size: 120%;
+}
+
+nav {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.info-size{
+    height: 80%;
+    width: 80%;
+}
+
+@media only screen and (max-width: 998px) {
+
+    .menu-container {
+        grid-template-columns: 1fr;
+        padding: 0% 10% 0% 10%;
+    }
+
+    .about-container {
+        margin-top: 2%;
+        grid-template-columns: 1fr;
+        row-gap: 3%;
+    }
+
+    #about {
+        height: 200vh;
+        padding: 10% 10% 0% 10%;
+    }  
+    
+    #footer {
+        margin-top: 700%;
+    }
+
+    #title {
+        font-family: 'Baloo 2', cursive;
+        font-size: 550%;
+    }
+
+    .detailed-container {
+        flex-direction: column;
+        margin-top: 3%;
+    }
+
+    .detailed-text {
+        width: 80%;
+    }
+
+    #detailed {
+        height: 150vh;
+    }
+
+    #title {
+        padding-top: 35%;
+    }
+    
+}

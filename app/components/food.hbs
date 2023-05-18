@@ -1,0 +1,16 @@
+<div class="scale menu-item">
+    <LinkTo class="link-text-color" @route="food" @model={{@food}}>
+        <img src={{@food.image}} alt={{@food.name}}>
+        <div id="menu-title" class="flex-box menu-text">
+            <p>
+                {{@food.name}}
+            </p>
+            <p class="{{@food.price-class}}">
+                {{@food.price}}
+            </p>
+        </div>
+        <p class="has-text-justified menu-text text-size">{{@food.description}}</p>
+    </LinkTo>
+</div>
+
+

@@ -1,0 +1,20 @@
+<div class="detailed-container">
+    <div>
+        <img class="frame info-size" src={{@food.image-detailed}} alt="{{@food.name}}">
+    </div>
+    <div class="detailed-text">
+        <p class="detailed-title">{{@food.name}}</p>
+        <p class="text-size">{{@food.description}} {{@food.description-more}}</p>
+        <p class="text-size">Ingredients:</p>
+        <ul class="text-size ingredients">
+            {{#each @food.ingredients as |ingredients|}}
+                <li>{{ingredients.ingredient}}</li>
+            {{/each}}
+        </ul>
+        <p class="text-size small-margin">{{@food.veggie}}</p>
+        <div class="flex-box">
+            <img src={{@food.halal-image}} alt={{@food.halal-text}} height="50px" width="50px">
+            <p class="text-size small-margin">{{@food.halal-text}}</p>
+        </div>
+    </div>
+</div>
